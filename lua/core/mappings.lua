@@ -1,0 +1,7 @@
+vim.api.nvim_set_keymap('i', '(', '()<Left>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '[', '[]<Left>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '{', '{}<Left>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '"', '""<Left>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', "'", "''<Left>", { noremap = true, silent = true })
+--vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+--vim.api.nvim_set_keymap('n', '<leader>l', ':!latexmk -pvc -pdf % >/dev/null 2>&1 %<CR>', { noremap = true, silent = true })
