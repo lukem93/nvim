@@ -1,3 +1,6 @@
+
+local dirs_to_search = { "~/projects", "~/.config/nvim", }
+local find_command = "find " .. table.concat(dirs_to_search, " ") .. " -maxdepth 2 -type f"
 return {
 	"ibhagwan/fzf-lua",
 	cmd = "FzfLua",
@@ -6,19 +9,15 @@ return {
 		{
 			"<leader>ff",
 			function()
-				require("fzf-lua").files()
+				require("fzf-lua").files({ cmd = find_command })
 			end,
 			mode = "n",
 			desc = "Find Files",
 		},
-		{
-			"<leader>fb",
-			function()
-				require("fzf-lua").buffers()
-			end,
-			mode = "n",
-			desc = "Find Buffers",
-		},
 	},
-	opts = {},
+	opts = {
+		oldfiles = {
+			include_current_session = true,
+		},
+	}
 }
