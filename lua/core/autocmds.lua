@@ -14,7 +14,7 @@ vim.api.nvim_create_autocmd({ "FileType", "TextChanged", "InsertLeave" }, {
 	callback = vim.schedule_wrap(ts_diagnostic_func),
 })
 
-vim.api.nvim_create_user_command('FzfLuaMyProjectFiles', function()
+vim.api.nvim_create_user_command("FzfLuaMyProjectFiles", function()
 	require("fzf-lua").files({
 		--search_dirs =  {"~./projects"}
 	})

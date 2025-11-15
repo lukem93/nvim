@@ -27,3 +27,4 @@ return {
 	event = "InsertCharPre", -- Set the event to 'InsertCharPre' for better compatibility
 	priority = 1000,
 }
+

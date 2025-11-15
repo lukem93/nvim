@@ -2,7 +2,7 @@ return {
 	"nvim-treesitter/nvim-treesitter",
 	config = function()
 		require("nvim-treesitter.configs").setup({
-			--ensure_installed = { "latex", "lua" },
+			ensure_installed = { "latex", "lua" },
 			sync_install = true,
 			auto_install = false,
 			ignore_install = {},
@@ -17,3 +17,4 @@ return {
 		})
 	end,
 }
+

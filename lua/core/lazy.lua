@@ -48,8 +48,9 @@ require("lazy").setup({
 				"tohtml",
 				"tarPlugin",
 				"spellfile",
-				"man"
+				"man",
 			},
 		},
 	},
 })
+

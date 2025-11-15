@@ -1,5 +1,4 @@
-
-local dirs_to_search = { "~/projects", "~/.config/nvim", }
+local dirs_to_search = { "~/projects", "~/.config/nvim" }
 local find_command = "find " .. table.concat(dirs_to_search, " ") .. " -maxdepth 2 -type f"
 return {
 	"ibhagwan/fzf-lua",
@@ -19,5 +18,6 @@ return {
 		oldfiles = {
 			include_current_session = true,
 		},
-	}
+	},
 }
+
