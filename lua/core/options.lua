@@ -22,8 +22,6 @@ vim.o.autochdir = true  --change dir to current file
 
 vim.cmd([[colorscheme retrobox]])
 
-----let g:matchup_override_vimtex = 1
---g:vimtex_format_enabled
 --vim.opt.signcolumn = "yes"
 --vim.opt.autoindent = false
 --vim.opt.smartindent = false
