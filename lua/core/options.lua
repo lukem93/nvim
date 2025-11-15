@@ -9,8 +9,8 @@ vim.opt.shiftwidth = 4
 
 vim.opt.hlsearch = true
 vim.opt.relativenumber = true
-vim.cmd("syntax on")
-vim.cmd('filetype indent on')
+--vim.cmd("syntax on")
+vim.cmd("filetype indent off")
 vim.o.cursorline = true
 vim.opt.cmdheight = 0
 vim.opt.showtabline = 1
@@ -20,12 +20,14 @@ vim.o.pumheight = 12    -- max height of completion menu
 
 vim.o.autochdir = true  --change dir to current file
 
-vim.cmd([[colorscheme habamax]])
+vim.opt.autoindent = false
+vim.opt.smartindent = false
+vim.opt.cindent = false
+
+--vim.cmd([[colorscheme habamax]])
 --vim.cmd([[colorscheme retrobox]])
---vim.cmd([[colorscheme slate]])
---vim.cmd([[colorscheme wildcharm]])
+vim.cmd([[colorscheme slate]])
 --vim.cmd([[colorscheme unokai]])
+--vim.cmd([[colorscheme sorbet]])
 
 --vim.opt.signcolumn = "yes"
---vim.opt.autoindent = false
---vim.opt.smartindent = false
