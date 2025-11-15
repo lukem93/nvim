@@ -20,7 +20,11 @@ vim.o.pumheight = 12    -- max height of completion menu
 
 vim.o.autochdir = true  --change dir to current file
 
-vim.cmd([[colorscheme retrobox]])
+vim.cmd([[colorscheme habamax]])
+--vim.cmd([[colorscheme retrobox]])
+--vim.cmd([[colorscheme slate]])
+--vim.cmd([[colorscheme wildcharm]])
+--vim.cmd([[colorscheme unokai]])
 
 --vim.opt.signcolumn = "yes"
 --vim.opt.autoindent = false
