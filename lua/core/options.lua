@@ -10,6 +10,7 @@ vim.opt.shiftwidth = 4
 vim.opt.hlsearch = true
 vim.opt.relativenumber = true
 vim.cmd("syntax on")
+vim.cmd('filetype indent on')
 vim.o.cursorline = true
 vim.opt.cmdheight = 0
 vim.opt.showtabline = 1
