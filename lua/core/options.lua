@@ -18,7 +18,7 @@ vim.opt.showtabline = 1
 vim.o.completeopt = "menuone,noinsert"
 vim.o.pumheight = 12    -- max height of completion menu
 
-vim.o.autochdir = true --change dir to current file
+vim.o.autochdir = true  --change dir to current file
 
 vim.cmd([[colorscheme retrobox]])
 
@@ -27,6 +27,3 @@ vim.cmd([[colorscheme retrobox]])
 --vim.opt.signcolumn = "yes"
 --vim.opt.autoindent = false
 --vim.opt.smartindent = false
---vim.opt.cindent = false
---vim.cmd('filetype indent off')
---vim.cmd("filetype off")
