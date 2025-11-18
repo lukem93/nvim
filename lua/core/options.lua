@@ -14,6 +14,7 @@ vim.cmd("filetype indent off")
 vim.o.cursorline = true
 vim.opt.cmdheight = 0
 vim.opt.showtabline = 1
+vim.o.termguicolors = true
 
 vim.o.completeopt = "menuone,noinsert"
 vim.o.pumheight = 12    -- max height of completion menu
@@ -24,7 +25,6 @@ vim.opt.autoindent = false
 vim.opt.smartindent = false
 vim.opt.cindent = false
 
---vim.cmd([[colorscheme habamax]])
 --vim.cmd([[colorscheme retrobox]])
 vim.cmd([[colorscheme slate]])
 --vim.cmd([[colorscheme unokai]])
