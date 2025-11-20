@@ -30,6 +30,8 @@ vim.opt.autoindent = false
 vim.opt.smartindent = false
 vim.opt.cindent = false
 
+vim.cmd("set shortmess+=I")
+
 -- set colour scheme
 --vim.cmd([[colorscheme retrobox]])
 vim.cmd([[colorscheme slate]])
