@@ -10,21 +10,27 @@ vim.opt.shiftwidth = 4
 vim.opt.hlsearch = true
 vim.opt.relativenumber = true
 --vim.cmd("syntax on")
-vim.cmd("filetype indent off")
+
 vim.o.cursorline = true
 vim.opt.cmdheight = 0
 vim.opt.showtabline = 1
 vim.o.termguicolors = true
 
 vim.o.completeopt = "menuone,noinsert"
-vim.o.pumheight = 12    -- max height of completion menu
 
-vim.o.autochdir = true  --change dir to current file
+-- max height of completion menu
+vim.o.pumheight = 12
 
+-- change dir to current file
+vim.o.autochdir = true  
+
+-- turn off autoformatting and let treesitter handle it
+vim.cmd("filetype indent off")
 vim.opt.autoindent = false
 vim.opt.smartindent = false
 vim.opt.cindent = false
 
+-- set colour scheme
 --vim.cmd([[colorscheme retrobox]])
 vim.cmd([[colorscheme slate]])
 --vim.cmd([[colorscheme unokai]])
