@@ -1,7 +1,7 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = '\\'
 
-vim.cmd("set shortmess+=I")
+vim.cmd("set shortmess=I")
 
 vim.g.netrw_banner = 0
 vim.g.netrw_browse_split = 3
