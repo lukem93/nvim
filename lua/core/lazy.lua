@@ -49,6 +49,7 @@ require("lazy").setup({
 				"tarPlugin",
 				"spellfile",
 				"man",
+				"rplugin"
 			},
 		},
 	},
