@@ -14,7 +14,7 @@ vim.opt.relativenumber = true
 --vim.cmd("syntax on")
 
 vim.o.cursorline = true
-vim.opt.cmdheight = 0
+vim.opt.cmdheight = 1
 vim.opt.showtabline = 1
 vim.o.termguicolors = true
 
@@ -31,7 +31,7 @@ vim.opt.autoindent = false
 vim.opt.smartindent = false
 vim.opt.cindent = false
 
-vim.cmd([[colorscheme slate]])
+--vim.cmd([[colorscheme slate]])
 --vim.cmd([[colorscheme retrobox]])
 --vim.cmd([[colorscheme unokai]])
 --vim.cmd([[colorscheme sorbet]])
